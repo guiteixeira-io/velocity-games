@@ -1,7 +1,8 @@
 
 services:
   velocitygames:
-    image: wordpress:latest
+    image: velocitygames-wordpress
+    build: .
     container_name: velocitygames-wordpress
     restart: always
     ports:
